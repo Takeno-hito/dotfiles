@@ -73,3 +73,14 @@ ZSH_HIGHLIGHT_STYLES[bracket-level-4]='fg=yellow,bold'
 ZSH_HIGHLIGHT_STYLES[bracket-level-5]='fg=cyan,bold'
 
 ZSH_HIGHLIGHT_STYLES[cursor-matchingbracket]='standout'
+
+# export
+
+export PNPM_HOME="$HOME/.local/share/pnpm"
+
+export PATH=~/jdk-11.0.2/bin:$PATH
+export PATH="\
+        $HOME/.local/bin:\
+        $HOME/jdk-11.0.2/bin:\
+        $PNPM_HOME:\
+        $PATH"
