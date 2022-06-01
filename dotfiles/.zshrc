@@ -78,9 +78,9 @@ ZSH_HIGHLIGHT_STYLES[cursor-matchingbracket]='standout'
 
 export PNPM_HOME="$HOME/.local/share/pnpm"
 
-export PATH=~/jdk-11.0.2/bin:$PATH
+# export PATH=~/jdk-11.0.2/bin:$PATH
 export PATH="\
-        $HOME/.local/bin:\
-        $HOME/jdk-11.0.2/bin:\
-        $PNPM_HOME:\
-        $PATH"
+$HOME/.local/bin:\
+$HOME/jdk-11.0.2/bin:\
+$PNPM_HOME:\
+$PATH"
