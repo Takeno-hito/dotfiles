@@ -1,3 +1,5 @@
+bind status	C	!git commit -S
+
 color cursor black green bold
 color title-blur black blue
 color title-focus black blue bold
