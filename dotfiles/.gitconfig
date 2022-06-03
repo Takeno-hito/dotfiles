@@ -1,5 +1,6 @@
 [user]
 	name = 'Takeno-hito'
 	email = '18237819+Takeno-hito@users.noreply.github.com'
+	signingkey = FA882F769CACA742
 [pull]
 	ff = only
