@@ -80,11 +80,13 @@ export PNPM_HOME="$HOME/.local/share/pnpm"
 
 # export PATH=~/jdk-11.0.2/bin:$PATH
 export PATH="\
+/opt/homebrew/bin:\
 $HOME/.local/bin:\
 $HOME/jdk-11.0.2/bin:\
 $PNPM_HOME:\
 $HOME/.nodebrew/current/bin:\
 $PATH"
 
-export GPG_TTY=$(tty)
+export GPG_TTY=$TTY
 
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
