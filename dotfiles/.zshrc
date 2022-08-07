@@ -46,6 +46,7 @@ alias sudo='sudo '
 alias -g ...="../.."
 alias -g ....="../../.."
 alias -g .....="../../../.."
+alias ssh='ssh -A'
 
 # Syntax highlight
 
