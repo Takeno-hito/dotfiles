@@ -85,6 +85,7 @@ $HOME/.local/bin:\
 $HOME/jdk-11.0.2/bin:\
 $PNPM_HOME:\
 $HOME/.nodebrew/current/bin:\
+/usr/local/texlive/2022/bin/universal-darwin/:\
 $PATH"
 
 export GPG_TTY=$TTY
